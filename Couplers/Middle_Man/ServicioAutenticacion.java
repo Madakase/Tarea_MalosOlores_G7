@@ -1,0 +1,6 @@
+public class ServicioAutenticacion {
+
+    public boolean autenticar(String usuario, String clave) {
+        return usuario.equals("admin") && clave.equals("1234");
+    }
+}

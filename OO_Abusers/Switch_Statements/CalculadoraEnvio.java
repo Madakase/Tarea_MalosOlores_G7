@@ -1,5 +1,6 @@
 public class CalculadoraEnvio {
 
+    //Switch complejo
     public double calcularCosto(String tipoEnvio, double peso) {
         switch (tipoEnvio) {
             case "TERRESTRE":
